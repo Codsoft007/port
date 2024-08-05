@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidebar {
+    background-color: #042e0efc;
+    color: white;
+    height: 100vh;
+    width: 18vw;
+    position: fixed;
+
+}
+
+.sidebar .top .profilename {
+    font-size: 1.3rem;
+    padding-top: 48px;
+    width: 54%;
+}
+
+.sidebar .mid {
+    height: 80%;
+    text-align: center;
+
+}
+
+.homeicon {
+    width: 181px;
+    color: white;
+    position: relative;
+    top: 99px;
+    font-size: 27px;
+
+}
+
+.myintroicon {
+    width: 181px;
+    color: white;
+    position: relative;
+    top: 99px;
+    font-size: 27px;
+
+}
+
+.cvicon {
+    width: 181px;
+    color: white;
+    position: relative;
+    top: 99px;
+    font-size: 27px;
+
+}
+
+.blogicon {
+    width: 181px;
+    color: white;
+    position: relative;
+    top: 99px;
+    font-size: 27px;
+
+}
+
+.hamburger {
+    color: white;
+    position: relative;
+    top: 44px;
+    font-size: 31px;
+    width: 7%;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top .profilepic {
+    width: 9%;
+    color: white;
+    position: relative;
+    top: 36px;
+    font-size: 33px;
+    margin-left: 0px
+}
+
+.sidebar .mid .hometext {
+    font-size: 2.2rem;
+    padding-top: 65px;
+    text-decoration: none;
+    margin-left: 24px;
+
+}
+
+.sidebar .mid .myintrotext {
+    font-size: 2.2rem;
+    padding-top: 65px;
+    margin-left: 65px;
+}
+
+.sidebar .mid .cvtext {
+    font-size: 2.2rem;
+    padding-top: 65px;
+}
+
+.sidebar .mid .blogtext {
+    font-size: 2.2rem;
+    padding-top: 65px;
+    margin-left: 25px;
+}
+
+
+
+.sidebar .mid .hometext a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar .mid .myintrotext a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar .mid .cvtext a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar .mid .blogtext a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar .mid .hometext :hover {
+    font-size: 2.3rem;
+    color: grey;
+}
+
+.sidebar .mid .myintrotext :hover {
+    font-size: 2.3rem;
+    color: grey;
+}
+
+.sidebar .mid .cvtext :hover {
+    font-size: 2.3rem;
+    color: grey;
+}
+
+.sidebar .mid .blogtext :hover {
+    font-size: 2.3rem;
+    color: grey;
+}
+
+.sidebar .bottom a {
+    font-size: 1.6rem;
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.sidebar .bottom {
+    text-align: center;
+}
+
+.sidebar .bottom :hover {
+    font-size: 1.7rem;
+    color: grey;
+}
+
+.downloadcv button {
+    font-size: 1.4rem;
+    display: flex;
+    background-color: #10210b;
+    position: absolute;
+    left: 32%;
+    bottom: 17%;
+    color: #ffffff
+}
+
+.main {
+    background-color: #ffffff;
+    height: 150vh;
+    width: 80.9vw;
+    margin-left: 18vw;
+    color: black;
+    overflow: hidden;
+}
+
+.main .firstsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .firstsection .rightsection img {
+    height: 400px;
+    width: 35vw;
+    margin-top: 210px;
+}
+
+.main .leftsectiontext {
+    margin-top: 390px;
+    font-size: 2.6rem;
+    width: 40vw;
+}
+
+.main .leftsection .purple {
+    color: rgb(210, 174, 13);
+}
+
+.main .secondsection {
+    margin-top: 170px;
+    border-top: 1.5px solid #042e0efc;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.gray {
+    color: grey;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.main .secondsection2 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.secondsection .box {
+    height: 2px;
+    width: 75vw;
+    margin: 20px 0;
+    background-color: #033f11fc;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.box .verticle {
+    height: 90px;
+    width: 1.5px;
+    background-color: #042e0efc;
+
+}
+
+.imagetop {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticletext {
+    position: relative;
+    top: 60px;
+    left: -9px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+.verticle-dse {
+    position: relative;
+    top: 70px;
+    width: 180px;
+    font-size: 14px;
+    left: -9px;
+}
+
+.footer {
+    height: 20vh;
+    background-color: #10210b;
+    width: 80.5vw;
+    margin-left: 18vw;
+}
+
+.portfoliotext {
+    text-align: center;
+    position: relative;
+    top: 36px;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 45px;
+    color: #ffffff;
+}
+
+.hometext {
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding-top: 16px;
+
+}
+
+.myintrotext {
+    font-size: 1.6rem;
+    padding-top: 16px;
+}
+
+.cvtext {
+    font-size: 1.6rem;
+    padding-top: 16px;
+}
+
+.blogtext {
+    font-size: 1.6rem;
+    padding-top: 16px;
+}
+
+
+
+.hometext a {
+    text-decoration: none;
+    color: white;
+}
+
+.myintrotext a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cvtext a {
+    text-decoration: none;
+    color: white;
+}
+
+.blogtext a {
+    text-decoration: none;
+    color: white;
+}
+
+.hometext :hover {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.myintrotext :hover {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.cvtext :hover {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.blogtext :hover {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    text-align: center;
+}
+input .hamburger{
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

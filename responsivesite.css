@@ -1,0 +1,124 @@
+@media screen and (max-width:991px) {
+   
+    .hamburger {
+        display: block;
+        margin-right: 20px;
+        font-size: 31px;
+    }
+    .sidebar .mid{
+        display: none;
+    }
+    .sidebar .bottom{
+        display: none;
+    }
+    .profilepic{
+        display: none;
+    }
+    .profilename{
+        display: none;
+    }
+    .downloadcv{
+        display: none;
+    }
+    .sidebar{
+        height: 100%;
+    }
+    .firstsection{
+        width: 100%;
+    }
+    .main .leftsectiontext{
+        margin-top: 150px;
+        width: 80%;
+        font-size: 2.1rem;
+        margin-left: 20px;
+        
+    }
+    .main{
+        height: 160vh;
+    }
+    .main .firstsection .rightsection img{
+        margin-top: 100px;
+        width: 100%;
+        height: 200px;
+        margin-right: 50px;
+    }
+    .main .secondsection{
+        margin-top: 130px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .main .secondsection2 {
+        margin-top: 50px;
+        margin-left: 7px;
+    }
+    .gray {
+        color: grey;
+        font-size: .8rem;
+        margin-bottom: 5px;
+    }
+    .secondsection .box {
+        height: 2px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 90px;
+    }
+    .secondsection .box {
+    height: 2px;
+    width: 75vw;
+    margin: 20px 0;
+    background-color: #033f11fc;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.verticletext {
+    position: relative;
+    top: 60px;
+    left: -42px;
+    width: 120px;
+    font-size: .7rem;
+}
+.verticle-dse {
+    position: relative;
+    top: 70px;
+    width: 10vw;
+    font-size: 11px;
+    left: -42px;
+}
+.footer {
+    height:30vh;
+    background-color: #10210b;
+    width: 82vw;
+    margin-left: 18vw;
+}
+.portfoliotext {
+    text-align: center;
+    position: relative;
+    top: 36px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}.copyright {
+    margin-top: 35px;
+}
+.hometext {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+.myintrotext {
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+.cvtext {
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+.blogtext {
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+}
